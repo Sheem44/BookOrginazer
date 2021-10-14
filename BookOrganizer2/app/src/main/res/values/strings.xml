@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Book Organizer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_file">com.abc.preference_file</string>
+    <string name="pref_login_status">com.abc.preference_login_status</string>
+    <string name="pref_user">com.abc.preference_user</string>
+    <string name="pref_user_name">com.abc.preference_user_name</string>
+    <string name="pref_alarm_time">com.abc.preference_alarm_time</string>
+    <string-array name="Days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>13</item>
+    </string-array>
+    <string name="title_activity_set_alarm">setAlarm</string>
+
+    <string name="books">Books</string>
+    <string name="book">Book</string>
+    <string name="book_name">Name</string>
+    <string name="book_pages">Pages</string>
+    <string name="create_schedule">Create Schedule</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="schedule">Schedule</string>
+    <string name="schedules">Schedules</string>
+    <string name="date">Date</string>
+    <string name="remove_alert">Do You Want To Move This Schedule?</string>
+    <string name="notice">Notice</string>
+
+
+    <!-- relative load  -->
+    <string name="loading">Loading please wait..</string>
+    <string name="err_msg_no_connection">No Connection.</string>
+    <string name="err_msg_something_wrong">SomeThing Wrong Please, Try Again.</string>
+    <string name="no_books_found">No Books Found.</string>
+    <string name="no_schedules_found">No Schedules Found.</string>
+
+
+</resources>

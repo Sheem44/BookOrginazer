@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop= "5dp"
+    android:paddingBottom= "5dp"
+    android:paddingLeft= "5dp"
+    android:paddingRight= "5dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/probackground"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="109dp"
+        android:text="Log in"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#2A2728"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="164dp"
+        android:hint="User Name" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="225dp"
+        android:hint="Password"
+        android:id="@+id/user_password"
+        />
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="204dp"
+        android:textSize="20sp"
+        android:background="@drawable/buttoun"
+        android:gravity="center_horizontal"
+        android:text="log in"
+        android:id="@+id/login_btn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="145dp"
+        android:text="New User? Register now"
+        android:textColor="#B5362F"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/register_text"/>
+
+
+</RelativeLayout>
